@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form 1v2</title>
+        <link rel="stylesheet" type="text/css" href="style up1 v2.1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+
+    <body>
+        <div class="navbar">      
+            <ul>
+                <!-- <li style="padding-right: 30px;"><a href="">HOME</a></li>
+                <li style="padding-right: 30px;"><a href="">PRODUCT</a></li>
+                <li style="padding-right: 30px;"><a href="">GALLERY</a></li>   
+                <li style="padding-right: 30px;"><a href="">BLOG</a></li>
+                <li><a href="">MY INVENTORY</a></li> -->
+
+                <li><a href="">HOME</a></li>
+                <li><a href="">PRODUCT</a></li>
+                <li><a href="">GALLERY</a></li>   
+                <li><a href="">BLOG</a></li>
+                <li><a href="">MY INVENTORY</a></li>
+            </ul>
+        </div>
+        
+        <main id="boxes">
+            <div id="column1">
+                <img src="logo.png" alt="gambar gagal dimuat"/>
+            </div>
+            
+            <div id="column2">
+                <h1>Pieter Alexander</h1>
+                <p>Front End Designer</p>
+                <button class="btn_kontak">Kontak</button>
+                <button class="btn_resume">Resume</button>
+            </div>
+            
+            <div id="column3">
+                <h4>Availability</h4>
+                <h4>Usia</h4>
+                <h4>Lokasi</h4>
+                <h4>Pengalaman</h4>
+                <h4>Email</h4>
+            </div>
+
+            <div id="column4">
+                <p>Full Time</p>
+                <p>17</p>
+                <p>Jakarta, Indonesia</p>
+                <p>2</p>
+                <p>Developer@gmail.com</p>
+            </div>
+        </main>
+
+
+        <div class="tabel">
+            <form action="/action_page.php">
+                <label for="nama">Nama</label>
+                <input type="text" id="name" name="firstname" placeholder="">
+
+                <label for="role">Role</label>
+                <select name="role" id="role">
+                    <option value="front end developer">Front End Developer</option>
+                    <option value="back end developer">Back End Developer</option>
+                    <option value="fullstack">Fullstack</option>
+                </select>
+
+                <label for="avaliability">Availability</label>
+                <select name="availability" id="availability">
+                    <option value="part time">Part Time</option>
+                    <option value="full time">Full Time</option>
+                </select>
+
+                <label for="age">Age</label>
+                <input type="number" id="age" age="age">
+
+                <label for="lokasi">Lokasi</label>
+                <input type="text" id="lokasi" name="lokasi" placeholder="">
+
+                <label for="years experience">Years Experience</label>
+                <input type="number" id="year experience">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="">
+            </form>
+        </div>
+
+        <div class="submit">
+            <button type="button" class="btn_submit">Submit</button>
+        </div>
+    </body>
+</html>
