@@ -1,0 +1,184 @@
+body,html
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.734);
+    margin-bottom: 50px;
+}
+
+.navbar ul
+{
+    width: auto;
+    float: right;
+    margin-top: 18px;
+}
+
+.navbar ul li
+{
+    display: inline-block;
+    list-style: none;
+    /* margin: 0; */
+    /* padding-left: 0; */
+    padding-right: 40px;
+ 
+}
+
+.navbar ul li a
+{
+    font-family: sans-serif;
+    font-size: 12px;
+    /* text-align: center; */
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: white;
+    margin: 0;
+}
+
+.navbar ul li a:hover
+{
+    color: rgba(255, 217, 0, 0.986);
+    transition: 0.5s;
+}
+
+#boxes
+{
+    content: "";
+    display: table;
+    clear: both;
+    background-color: whitesmoke;
+    margin: 50px;
+}
+
+#column1
+{
+    float: left;
+    padding: 0 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#column2
+{
+    float: left;
+    padding: 0 10px;
+    margin-right: 50px;
+}
+
+.btn_kontak
+{
+    /*border: 2px solid black;*/
+    background-color: white;
+    /*color: black;*/
+    padding: 14px 28px;
+    font-size: 16px;
+    /*cursor: pointer;*/
+    transition-duration: 0.5s;
+    background-color: blue;
+    border-color: blue;
+    color:white;
+}
+
+/*.btn:active 
+{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}*/
+
+.btn_kontak:hover
+{
+    background-color: rgba(0, 0, 255, 0.493);
+    color: white;
+}
+
+.btn_resume
+{
+    /*border: 2px solid black;*/
+    background-color: white;
+    /*color: black;*/
+    padding: 14px 28px;
+    font-size: 16px;
+    /*cursor: pointer;*/
+    transition-duration: 0.5s;
+    border-color: green;
+    color: green;
+}
+
+.btn_resume:hover
+{
+    background-color: green;
+    color: white;
+}
+
+#column3
+{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+#column4
+{
+    font-size: 110%;
+    float: left;
+    margin-left: 50px;
+    margin-right: 349px;
+}
+
+input[type=text], select
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]:hover
+{
+    background-color: green;
+}
+
+.tabel
+{
+    background-color: whitesmoke;
+    margin: 50px;
+}
+
+.btn_submit
+{
+    display: block;
+    width: 93%;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    margin: 0em 0em 0em 3em;
+}
